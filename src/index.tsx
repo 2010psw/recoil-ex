@@ -60,9 +60,8 @@ table {
 body {
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: "#2f3640";
-  color:"white";
-  
+  background-color: #3F8CF2;
+  color:black;
   line-height: 1.2;
 }
 a {
@@ -70,10 +69,6 @@ a {
   color:inherit;
 }
 `;
-
-//body 안에 있던애들
-//background-color:${(props) => props.theme.bgColor};
-//color:${(props) => props.theme.textColor};
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
